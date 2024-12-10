@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div{
+  gap: 40px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: solid 1px ;
+}
+h1{
+  margin: 5px;
+  color: rgb(0, 187, 255);
+  font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  color: crimson;
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+  color: aliceblue;
+  background: red;
+}
+button:hover{
+  h1{
+    color: red;
+  }
+ 
+}
+
